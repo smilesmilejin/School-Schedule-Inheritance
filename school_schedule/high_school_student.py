@@ -1,5 +1,6 @@
 from .student import Student
-
+# This one works too
+# from school_schedule.student import Student
 class HighSchoolStudent(Student):
     def __init__(self, name, grade, classes,
         has_parking_privileges=False, clubs=None):
